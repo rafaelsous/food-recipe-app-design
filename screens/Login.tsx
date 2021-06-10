@@ -1,11 +1,15 @@
 import React from 'react';
+import { useNavigation, useRoute } from '@react-navigation/core';
+
 import {
     View,
     Text,
     TouchableOpacity
 } from 'react-native';
 
-const Home = ({ navigation }) => {
+const Login = () => {
+    const { navigate } = useNavigation();
+
     return (
         <View
             style={{
@@ -14,14 +18,14 @@ const Home = ({ navigation }) => {
                 justifyContent: 'center'
             }}
         >
-            <Text>Home</Text>
+            <Text>Login</Text>
             <TouchableOpacity
-                onPress={() => navigation.navigate("Recipe")}
+                onPress={() => navigate("Home")}
             >
-                <Text>Navigate to Recipe</Text>
+                <Text>Navigate to Home</Text>
             </TouchableOpacity>
         </View>
     )
 }
 
-export default Home;
+export default Login;
