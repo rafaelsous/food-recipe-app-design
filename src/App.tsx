@@ -1,9 +1,10 @@
+import { DefaultTheme } from '@react-navigation/native';
 import React from 'react';
 
 import { Routes } from './routes';
 
-const App = () => {
-  return <Routes />;
-};
+const App = () => (
+  <Routes />
+);
 
 export default App;

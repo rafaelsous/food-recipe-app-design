@@ -7,7 +7,6 @@ import {
   ImageBackground,
   View,
   Text,
-  TouchableOpacity,
   StyleSheet,
   StatusBar,
 } from 'react-native';
@@ -20,7 +19,7 @@ const Login = () => {
 
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="light-content" translucent backgroundColor="transparent" />
+      <StatusBar barStyle="light-content" />
 
       <View style={styles.backgroundImageContainer}>
         <ImageBackground
