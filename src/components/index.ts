@@ -4,6 +4,10 @@ import CategoryCard from './CategoryCard';
 import Search from './Search';
 import Header from './Header';
 import RecipeCard from './RecipeCard';
+import TrendingSection from './TrendingSection';
+import TrendingCard from './TrendingCard';
+import RecipeCardInfo from './RecipeCardInfo';
+import RecipeCardDetails from './RecipeCardDetails';
 
 export {
   CategoryCard,
@@ -12,4 +16,8 @@ export {
   Search,
   Header,
   RecipeCard,
+  TrendingSection,
+  TrendingCard,
+  RecipeCardInfo,
+  RecipeCardDetails,
 };
